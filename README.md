@@ -1,5 +1,6 @@
 # @air-closet/utils
-Utility functions 
+
+Utility functions
 
 ## How to install
 
@@ -7,14 +8,14 @@ wip
 
 ```bash
 yarn add @air-closet/utils
-``` 
+```
 
 ## How to use
 
-in typescript: 
+in typescript:
 
 ```ts
-import aircloset_utils from '@air-closet/utils'
+import aircloset_utils from '@air-closet/utils';
 
 await aircloset_utils.promise_all(promiseList);
 ```
@@ -22,11 +23,11 @@ await aircloset_utils.promise_all(promiseList);
 in javascript:
 
 ```js
-const aircloset_utils = require('@air-closet/utils')
+const aircloset_utils = require('@air-closet/utils');
 
 await aircloset_utils.promise_all(promiseList);
 ```
 
-##  List of exported functions
+## List of exported functions
 
 - `promise_all()`
