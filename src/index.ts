@@ -1,1 +1,1 @@
-export * from './promise-all'
+export * from "./promise-all";
