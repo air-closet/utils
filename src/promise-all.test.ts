@@ -6,8 +6,6 @@ describe('promise-all', (): void => {
      - defaultで concurrently は20
      - Errorハンドリングは promise.all と極めて同じにする
      */
-    const sleep = msec => new Promise(resolve => setTimeout(resolve, msec));
-
     test('', async () => {
 
         const promise1 = Promise.resolve(3);
