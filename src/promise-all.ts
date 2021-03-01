@@ -17,7 +17,11 @@ async function promise_all(
 
     if (executeTaskList.length > concurrently) {
       const result = await Promise.all(executeTaskList);
-      resultList.push(...result);
+
+      if (result.length > 0) {
+        resultList.push(...result);
+      }
+
       cnt += concurrently;
 
       executeTaskList = [];
@@ -26,7 +30,10 @@ async function promise_all(
   }
 
   const result = await Promise.all(executeTaskList);
-  resultList.push(...result);
+
+  if (result.length > 0) {
+    resultList.push(...result);
+  }
 
   return resultList;
 }
