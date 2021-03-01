@@ -5,5 +5,14 @@
   "main": "index.js",
   "repository": "git@github.com:air-closet/utils.git",
   "author": "nitaking <10850034+nitaking@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.2",
+    "typescript": "^4.2.2"
+  }
 }
