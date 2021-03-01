@@ -6,7 +6,7 @@ Utility functions
 wip
 
 ```bash
-yarn install @air-closet/utils
+yarn add @air-closet/utils
 ``` 
 
 ## How to use
