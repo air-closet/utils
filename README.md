@@ -16,7 +16,7 @@ in typescript:
 ```ts
 import aircloset_utils from '@air-closet/utils'
 
-await aircloset_utils(promiseList);
+await aircloset_utils.promise_all(promiseList);
 ```
 
 in javascript:
@@ -24,7 +24,7 @@ in javascript:
 ```js
 const aircloset_utils = require('@air-closet/utils')
 
-await aircloset_utils(promiseList);
+await aircloset_utils.promise_all(promiseList);
 ```
 
 ##  List of exported functions
