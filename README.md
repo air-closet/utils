@@ -26,3 +26,7 @@ const aircloset_utils = require('@air-closet/utils')
 
 await aircloset_utils(promiseList);
 ```
+
+##  List of exported functions
+
+- `promise_all()`
