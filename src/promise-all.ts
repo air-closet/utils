@@ -13,7 +13,7 @@ async function promise_all(allTaskList: Promise<any>[] | any[], options?: Promis
     for (const task of allTaskList) {
         executeTaskList.push(task)
 
-        if (allTaskList.length > concurrently) {
+        if (executeTaskList.length > concurrently) {
             const result = await Promise.all(executeTaskList);
             resultList.push(...result)
             cnt += concurrently;
