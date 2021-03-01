@@ -25,7 +25,6 @@ async function promise_all(
       cnt += concurrently;
 
       executeTaskList = [];
-      console.log(`${cnt} end`);
     }
   }
 
