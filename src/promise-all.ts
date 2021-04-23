@@ -3,7 +3,7 @@ type PromiseAllOptions = {
 };
 const DEFAULT_CONCURRENTLY = 20 as const;
 
-async function promise_all(
+export async function promise_all(
   allTaskList: Promise<any>[] | any[],
   options?: PromiseAllOptions
 ) {
