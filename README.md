@@ -4,8 +4,6 @@ Utility functions
 
 ## How to install
 
-wip
-
 ```bash
 yarn add @air-closet/utils
 ```
@@ -15,17 +13,17 @@ yarn add @air-closet/utils
 in typescript:
 
 ```ts
-import aircloset_utils from '@air-closet/utils';
+import { promise_all } from '@air-closet/utils'
 
-await aircloset_utils.promise_all(promiseList);
+await promise_all(promiseList);
 ```
 
 in javascript:
 
 ```js
-const aircloset_utils = require('@air-closet/utils');
+const { promise_all } = require('@air-closet/utils');
 
-await aircloset_utils.promise_all(promiseList);
+await promise_all(promiseList);
 ```
 
 ## List of exported functions
